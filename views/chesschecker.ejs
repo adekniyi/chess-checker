@@ -1,0 +1,19 @@
+<%- include('./partials/header') %>
+
+    <div id="player1">
+      <h1> <span class="player1name"><%= player1.toUpperCase() %> </span> <span class="player1Num">0</span> </h1>
+      <input type="submit" value="win" class="player1Inp"> 
+  </div>
+  <div id="player2">
+      <h1><span class="player2Num">0</span> <span class="player2name"><%= player2.toUpperCase() %> </span>  </h1> 
+      <input type="submit" value="win" class="player2Inp"> 
+  </div>
+  <div class="form">
+    <h3>playing up to: <span> 0</span></h3>
+        <input type="number" name="number" id="number"> <br>
+        <button class="getStarted"> get started</button><button class="reset">reset</button>
+        <h4 class="playerThatWon"></h4>
+  </div>
+  <%- include('./partials/footer') %>
+
+

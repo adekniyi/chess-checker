@@ -1,0 +1,62 @@
+html body {
+    background: url(https://images.wallpaperscraft.com/image/chess_chess_board_figures_113199_3840x2400.jpg) no-repeat center center;
+}
+
+#player1{
+    float: left;
+    width: 50%;
+    margin-bottom: 6%;
+
+}
+.player1Num{
+    margin-left: 30%;
+}
+.player2Num{
+    margin-right: 25%;
+}
+#player2{
+    float: right;
+    width: 50%;
+    margin-bottom: 6%;
+}
+.form{
+    margin-top: 6%;
+    margin-right: 3%;
+}
+
+.container{
+    text-align: center;
+    margin-top: 14%;
+}
+input[type="number"]{
+    margin-bottom: 3.5%;
+}
+input[type="submit"]{
+    width: 25%;
+}
+.player1Inp{
+    margin-left: -37%;
+}
+.player2Inp{
+    margin-right: -33%;
+}
+.winner{
+    color: green;
+}
+.getStarted{
+    text-transform: uppercase;
+    margin-right: 2%;
+}
+.reset{
+    background-color: red;
+    border: 2px solid red;
+    text-transform: uppercase;
+    margin-left: 2%;
+}
+input[type="submit"]{
+    text-transform: uppercase;
+}
+.playerThatWon{
+    margin-top: 6%;
+    text-transform: uppercase;
+}
