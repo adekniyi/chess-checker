@@ -4,39 +4,62 @@
 }
 
 html body { 
-    background: url(https://www.hdwallpaperslife.com/wp-content/uploads/2018/01/chess_pieces_fighting_board_88519_1920x1080.jpg) no-repeat center center; 
-}
-
-.container{
+    background-color: rgb(132, 132, 250);
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  .container {
     margin-top: 16%;
-}
-
-h1{
+    margin-right: 25%;
+  }
+  .mx-auto {
+    margin-right: 20%;
+  }
+  
+  h1 {
     text-align: center;
     text-transform: uppercase;
     font-size: 24px;
-}
-p{
+  }
+  p {
     text-align: center;
     text-transform: uppercase;
-    font-size: 19px; 
-}
-.players{
+    font-size: 19px;
+  }
+  .players {
+    display: table;
+    width: 100%;
     text-align: center;
-}
-.player1{
-    float:left;
+  }
+  .player1 {
+    display: table-cell;
+    text-align: left;
     width: 50%;
-    margin-left: 0px;
-}
-.player2{
-    float:right;
+  }
+  .player2 {
+    display: table-cell;
+    text-align: right;
     width: 50%;
-}
-.btn{
+  }
+  .btn {
+      margin: 0px auto;
     margin-top: 15px;
-    margin-left: 40%;
-    text-align: center;
+    margin-left: 35%;
+    padding: 5px;
+    width: 150px;
+  }
+  input[type="text"] {
+    width: 100px;
+  }
 
-}
 
+  /* responsiveness */
+  @media(width:375px){
+    .btn {
+        margin: 0px auto;
+      margin-top: 15px;
+      margin-left: 23%;
+      padding: 5px;
+      width: 150px;
+    }
+  }
