@@ -1,7 +1,7 @@
 {
   "name": "chess-checker",
   "version": "1.0.0",
-  "description": "",
+  "description": "<h1>it a website that keep check of score of two playing playing check</h1>",
   "main": "chess.js",
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -11,7 +11,7 @@
     "join": "^3.0.0",
     "path": "^0.12.7",
     "path.join": "^1.0.0",
-    "request": "^2.88.0",
+    "request": "^2.88.2",
     "require": "^2.4.20"
   },
   "devDependencies": {},
